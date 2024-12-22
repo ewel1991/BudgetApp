@@ -124,11 +124,6 @@ See you next time
 3. **Exit the Program**:
    - Select option `9` from the menu to exit the application.
 
-## Future Improvements
-
-- **Persistent Data Storage**: Currently, data is stored in XML files. Moving to a database like SQLite could improve data management and scalability.
-- **Data Validation**: Adding input validation and error handling for better user experience.
-- **Graphical Interface**: Future versions could incorporate a graphical user interface (GUI) for improved usability.
 
 ## License
 
