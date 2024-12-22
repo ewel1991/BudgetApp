@@ -1,0 +1,8 @@
+bin/
+obj/
+plan/
+images/
+BudgetApp.*
+incomes.xml
+expenses.xml
+users.xml
