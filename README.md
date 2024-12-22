@@ -1,3 +1,5 @@
+![Budget Management](https://github.com/ewel1991/BudgetApp/raw/main/budgetApp.jpg)
+
 # Budget Application - README
 
 ## Overview
