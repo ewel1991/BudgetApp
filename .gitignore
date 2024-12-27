@@ -3,6 +3,9 @@ obj/
 plan/
 images/
 BudgetApp.*
+25_BudgetApp.cbp
+25_BudgetApp.layput
+25_BudgetApp.cscope_file_list*
 incomes.xml
 expenses.xml
 users.xml
