@@ -29,7 +29,7 @@ void BudgetMainApp :: addIncome()
 {
     if (userManager.isUserLoggedIn())
     {
-        budgetManager -> addIncome();
+        budgetManager->addIncome();
     }
 }
 
@@ -38,7 +38,7 @@ void BudgetMainApp :: addExpense()
 {
     if (userManager.isUserLoggedIn())
     {
-        budgetManager -> addExpense();
+        budgetManager->addExpense();
     }
 }
 
@@ -47,7 +47,7 @@ void BudgetMainApp :: showCurrentMonthBalance()
 {
     if (userManager.isUserLoggedIn())
     {
-        budgetManager -> showCurrentMonthBalance();
+        budgetManager->showCurrentMonthBalance();
     }
 }
 
@@ -55,7 +55,7 @@ void BudgetMainApp :: showPreviousMonthBalance()
 {
     if (userManager.isUserLoggedIn())
     {
-        budgetManager -> showPreviousMonthBalance();
+        budgetManager->showPreviousMonthBalance();
     }
 }
 

@@ -186,7 +186,7 @@ void BudgetManager:: showBalance (int startDate, int endDate)
 
 void BudgetManager:: listItems (vector <Operation> items, int dateBegin, int dateEnd1)
 {
-    //time_t dateCheck;
+
 
     cout << left << setw(5) <<"Id" << setw(20) << "Item" <<setw(15) <<"Amount" << setw(8) <<"Date" << endl;
     cout << endl;
@@ -194,7 +194,7 @@ void BudgetManager:: listItems (vector <Operation> items, int dateBegin, int dat
     for (Operation item : items)
     {
 
-        if (item.date >= dateBegin && item.date < dateEnd1 && item.userId == LOGGED_USER_ID)
+        if (item.date >= dateBegin && item.date <= dateEnd1 && item.userId == LOGGED_USER_ID)
         {
 
             cout << left << setw(5) <<item.id << setw(20) << item.item <<setw(15) <<item.amount << setw(8) <<DateMethods:: convertIntDateToStringWithDashes(item.date)<< endl;
